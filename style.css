@@ -1,0 +1,30 @@
+/* SPEEDEX COURIER - 1st Sem B.Tech CSS */
+body { font-family: Arial, sans-serif; margin: 0; background: #f0f4f8; color: #333; }
+header { background: #003366; color: white; text-align: center; padding: 10px 0 0; border-bottom: 3px solid #ff9900; }
+header h2 { margin: 0; font-size: 20px; }
+header p { margin: 4px 0 6px; font-size: 12px; color: #ffeb3b; }
+marquee { font-size: 12px; font-weight: bold; color: #002244; padding: 4px; }
+nav { background: #004d99; display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; padding: 6px; }
+.nav-btn { background: #002b55; color: white; border: 1px solid #ff9900; padding: 6px 10px; cursor: pointer; font-weight: bold; border-radius: 4px; font-size: 12px; }
+.nav-btn.active, .nav-btn:hover { background: #ff9900; color: #002244; }
+.container { max-width: 760px; margin: 15px auto; padding: 0 10px; }
+.tab-pane { display: none; }
+.tab-pane.active { display: block; }
+fieldset { border: 2px solid #003366; border-radius: 6px; background: white; padding: 12px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); }
+legend { background: #003366; color: white; padding: 3px 8px; font-weight: bold; border-radius: 4px; font-size: 13px; }
+label { display: block; margin-top: 8px; font-weight: bold; font-size: 12.5px; }
+input, select, textarea { width: 100%; box-sizing: border-box; padding: 6px; margin-top: 3px; border: 1px solid #999; border-radius: 4px; }
+.btn { margin-top: 10px; background: #0055a5; color: white; border: none; padding: 7px 14px; cursor: pointer; font-weight: bold; border-radius: 4px; }
+.btn:hover { background: #003366; }
+.btn-green { background: #28a745; }
+.btn-green:hover { background: #1e7e34; }
+.alert-box { margin-top: 10px; background: #e7f4e8; border: 1.5px solid #28a745; padding: 8px; border-radius: 4px; color: #155724; }
+.progress-bar { display: flex; margin: 12px 0; background: #e0e0e0; border-radius: 4px; overflow: hidden; border: 1px solid #ccc; }
+.step { flex: 1; text-align: center; padding: 6px 2px; font-size: 11px; font-weight: bold; background: #e0e0e0; color: #666; border-right: 1px solid #ccc; }
+.step.active { background: #0055a5; color: white; }
+.step.done { background: #28a745; color: white; }
+.history-table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 12px; }
+.history-table th { background: #003366; color: white; padding: 5px; }
+.history-table td { padding: 5px; text-align: center; border: 1px solid #ccc; }
+.history-table tr:nth-child(even) { background: #f9f9f9; }
+footer { text-align: center; font-size: 11px; color: #666; margin: 20px 0 10px; }
